@@ -1,0 +1,402 @@
+.product-page{
+    width: 100%;
+    font-family: Poppins;
+    gap: 30px;
+}
+
+.section-1, .section-3, .section-5 {
+    margin: 0 40px;
+    gap: 30px;
+}
+
+.banner-container-1{
+    width: 100%;
+    background-image: url("../../assets/burgerbanner.png");
+    background-position: center;
+    background-repeat: none;
+    padding: 30px;
+    border-radius: 12px;
+    position: relative;
+}
+
+.banner-container-2 {
+    display: none;
+}
+
+.banner-left-section{
+    width: 60%;
+    color: #fff;
+    gap: 12px;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.banner-right-section{
+    width: 40%;
+    position: relative;
+}
+
+.food-img-conatiner{
+    width: 500px;
+}
+
+.food-img-conatiner img{
+    border-radius: 12px;
+}
+
+.para-1{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.para-2{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.btn-with-icon{
+    gap: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 120px;
+    padding: 12px 20px;
+}
+
+.btn-with-icon > p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn-section{
+    gap: 15px;
+}
+
+.btn-icon{
+    width: 25px;
+    height: 25px;
+}
+
+.rating-div{
+    width: 100px;
+    position: absolute;
+    bottom: -10px;
+    left: -20px;
+}
+
+.clock-img{
+    width: 30px;
+    height: 30px;
+}
+
+.time-section{
+    position: absolute;
+    gap: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #FC8A06;
+    border-radius: 0px 12px 12px 0px;
+    padding: 10px;
+    bottom: -25px;
+    left: 0px;
+}
+
+.search-box{
+    gap: 10px;
+    border: 1px solid #03081F;
+    padding: 8px 10px;
+    border-radius: 120px;
+}
+
+.search-box input {
+    font-family: Poppins;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.search-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.offers-text{
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+.section-2{
+    width: 100%;
+    background-color: #FC8A06;
+    padding: 10px 40px;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.offers{
+    background-color: #03081F;
+    padding: 5px 20px;
+    border-radius: 120px;
+}
+
+.discount-type {
+    position: absolute;
+    top: 0px;
+    border-radius: 0px 0px 12px 12px;
+    font-size: 18px;
+    font-weight: 700;
+    right: 30px;
+    padding: 20px;
+    background-color: #03081F;
+    color: #fff;
+}
+
+.company-img-list{
+    background-color: #FC8A06;
+    border-radius: 12px;
+}
+
+.food-upper-section{
+    padding: 0px 25px;
+    margin-bottom: 20px;
+}
+
+.header-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.header-details{
+    gap: 10px;
+}
+
+.header-details > p {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.delivery-information > p, .delivery-information > p > span{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.delivery-information > p{
+    font-weight: 400;
+}
+
+.delivery-information > p > span, .phone-heading, .website-heading{
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.additional-details{
+    justify-content: space-between;
+    box-shadow: 5px 5px 14px 0px #00000040;
+    border-radius: 12px;
+}
+
+.delivery-info, .message-info, .operational-info{
+    padding: 40px 30px;
+}
+
+.message-text{
+    width: 388px;
+    font-size: 18px;
+    line-height: 38px;
+}
+
+.phone-heading {
+    margin-bottom: 20px;
+}
+
+.phone, .website-heading{
+    margin-bottom: 15px;
+}
+
+.operational-info{
+    background-color: #03081F;
+    color: #FFFFFF;
+}
+
+.clock-img{
+    width: 20px;
+    height: 20px;
+}
+
+.Date-section{
+    gap: 8px;
+}
+
+.star-img{
+    width: 70px;
+}
+
+.review-left-Section {
+    align-items: end;
+    font-size: 12px;
+}
+
+.review-right-Section {
+    gap: 10px;
+    font-size: 15px;
+}
+
+.profile-img{
+    width: 50px;
+    height: 50px;
+}
+
+.review-line {
+    height: 40px;
+    width: 1px;
+    background-color: #FC8A06;
+}
+
+.section-4{
+    width: 100%;
+    background-color: #D9D9D9;
+    padding:50px;
+    gap:20px;
+    justify-content: center;
+    align-items: center ;
+}
+
+.customer-review{
+    width: 400px;
+    font-size: 13px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    padding: 20px;
+    gap: 10px
+}
+
+.upper-cutomer-details{
+    justify-content: space-between;
+}
+
+.reviewr{
+    font-weight: 600;
+}
+
+.reviewr-country {
+    font-weight: 400;
+    color: #FC8A06;
+}
+
+.left-pagination-icon, .right-pagination-icon{
+    width: 50px;
+    height: 50px;
+}
+
+.pagination-icon{
+    gap: 10px;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.customer-review-list{
+    gap: 20px;
+}
+
+.food-upper-section{
+    padding: 0px 25px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:480px) {
+    .scroll {
+        flex-wrap: nowrap; 
+        overflow-x: auto;
+        white-space: nowrap; 
+        scrollbar-width: thin;
+        gap: 10px;
+    }
+    .img-container{
+        width: 200px;
+    }
+    .banner-container-1{
+        display: none;
+    }
+    .banner-container-2{
+        width: 100%;
+        background-image: url("../../assets/burgerbanner.png");
+        background-position: center;
+        background-repeat: none;
+        padding: 20px;
+        border-radius: 12px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .banner-right-section{
+        width: 100%;
+    }
+    .rating-div{
+        width: 80px;
+        bottom: -16px;
+        left: 0px;           
+    }
+    .banner-left-section{
+        color: #fff;
+        gap: 12px;
+        justify-content: flex-end;
+        width: 100%;
+        padding: 0px;
+    }
+    .para-2{
+        font-size: 23px
+    }
+    .section-1, .section-3, .section-5{
+        margin: 0 20px;
+    }
+    .food-img-conatiner{
+        width: 100%;
+    }
+    .btn-section{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .time-section{
+        bottom: -32px;
+    }
+    .additional-details{
+        display: none;
+    }
+    .food-upper-section{
+        padding: 0;
+    }
+    .restaurant-container{
+        width: 190px;
+        height: 200px;
+    }
+    .restaurant-container img {
+        object-fit: cover;
+        border-radius: 12px;
+    }
+    .food-each-img{
+        position: none;
+        height: 260px;
+    }
+    .discount-type{
+        right: 16px;
+        padding: 5px;
+        border-radius: 0 0 8px 8px;
+    }
+    .section-2{
+        justify-content: none;
+        gap: 20px;
+        overflow-y: auto;
+        scrollbar-width:hidden
+    }
+    .section-4{
+        overflow-y: auto;
+    }
+    
+}
+
